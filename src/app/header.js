@@ -13,6 +13,7 @@ import Logo from "../assets/images/logo.webp";
 import {
   Bars3Icon,
   ChevronDoubleDownIcon,
+  ChevronDownIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 
@@ -21,14 +22,14 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="w-full absolute top-0 left-0 z-50 bg-white shadow-md">
-      <nav className="container mx-auto h-16 flex justify-between items-center px-4 lg:max-w-6xl">
+    <header className="absolute top-0 left-0 z-50 w-full bg-white shadow-md">
+      <nav className="container flex items-center justify-between h-16 px-4 mx-auto lg:max-w-6xl">
         <Link className="cursor-pointer" href={"#"}>
           <Image className="w-[70%]" src={Logo} alt="Header logo" />
         </Link>
 
         {/* Togglers container */}
-        <div className="duration-300">
+        <div className="lg:hidden">
           {open ? (
             <div className="inline-block">
               <XMarkIcon
@@ -47,6 +48,66 @@ const Header = () => {
         </div>
 
         {/* Desktop Navigation */}
+        <div className="hidden lg:block">
+          <ul className="flex items-center gap-6">
+            <li>
+              <Link
+                className="inline-flex items-center gap-1 text-sm uppercase"
+                href={""}
+              >
+                services <ChevronDownIcon className="w-4 h-4" />
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                className="inline-flex items-center gap-1 text-sm uppercase"
+                href={""}
+              >
+                Technologies <ChevronDownIcon className="w-4 h-4" />
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                className="inline-flex items-center gap-1 text-sm uppercase"
+                href={""}
+              >
+                Company <ChevronDownIcon className="w-4 h-4" />
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                className="inline-flex items-center gap-1 text-sm uppercase"
+                href={""}
+              >
+                Industries <ChevronDownIcon className="w-4 h-4" />
+              </Link>
+            </li>
+
+            <li>
+              <Link className="text-sm uppercase w-[160px] " href={""}>
+                Case Studies
+              </Link>
+            </li>
+
+            <li>
+              <Link className="text-sm uppercase" href={""}>
+                Blog
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                className="px-6 py-3 text-xs text-white uppercase duration-300 bg-blue-400 border border-blue-400 rounded-full hover:text-blue-400 hover:bg-white "
+                href={""}
+              >
+                Get in touch
+              </Link>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
   );

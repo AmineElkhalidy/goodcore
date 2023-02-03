@@ -14,9 +14,9 @@ const Services = () => {
   return (
     <section className="py-12">
       {/* Container */}
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-6xl px-4 mx-auto">
         {/* Section title and description */}
-        <div className="text-center mb-20">
+        <div className="mb-20 text-center">
           <h2 className="text-[26px] uppercase font-bold mb-4 section-heading md:text-[48px]">
             Our <span>Services</span>
           </h2>
@@ -28,10 +28,10 @@ const Services = () => {
         </div>
 
         {/* Grid container */}
-        <div className="grid place-items-center gap-6 md:grid-cols-3">
+        <div className="grid gap-6 place-items-center md:grid-cols-3">
           {/* Web apps */}
           <div className="max-w-lg py-8 px-4 border-2 border-[#f1f1f1] rounded-xl duration-500 group hover:bg-[#1a64a3] hover:cursor-pointer">
-            <div className="flex justify-center items-center">
+            <div className="flex items-center justify-center">
               <TvIcon className="w-20 h-20 text-[#1a64a3] duration-500 group-hover:text-white group-hover:scale-105" />
             </div>
 
@@ -55,7 +55,7 @@ const Services = () => {
 
           {/* Mobile apps */}
           <div className="max-w-lg py-8 px-4 border-2 border-[#f1f1f1] rounded-xl duration-500 group hover:bg-[#1a64a3] hover:cursor-pointer">
-            <div className="flex justify-center items-center">
+            <div className="flex items-center justify-center">
               <DevicePhoneMobileIcon className="w-20 h-20 text-[#1a64a3] duration-500 group-hover:text-white group-hover:scale-105" />
             </div>
 
@@ -79,7 +79,7 @@ const Services = () => {
 
           {/* Dev team */}
           <div className="max-w-lg py-8 px-4 border-2 border-[#f1f1f1] rounded-xl duration-500 group hover:bg-[#1a64a3] hover:cursor-pointer">
-            <div className="flex justify-center items-center">
+            <div className="flex items-center justify-center">
               <UserIcon className="w-20 h-20 text-[#1a64a3] duration-500 group-hover:text-white group-hover:scale-105" />
             </div>
 
@@ -100,6 +100,15 @@ const Services = () => {
               </Link>
             </div>
           </div>
+        </div>
+
+        <div className="mt-10 text-center">
+          <Link
+            className="px-16 py-4 text-sm font-semibold text-blue-400 uppercase duration-300 border border-blue-400 rounded-full hover:bg-blue-400 hover:text-white hover:shadow-md hover:shadow-blue-400/60"
+            href={""}
+          >
+            View all services
+          </Link>
         </div>
       </div>
     </section>
