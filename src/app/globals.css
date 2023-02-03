@@ -26,3 +26,22 @@ body {
   left: 0;
   background-image: url("../assets/images/bg-home-lines.webp");
 }
+
+.section-heading span::after {
+  bottom: 2px;
+  height: 5px;
+}
+
+.section-heading span::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+
+  background: #51ffdd;
+  height: 7px;
+  width: 100%;
+  border-radius: 25px;
+  z-index: -1;
+}

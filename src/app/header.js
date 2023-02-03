@@ -46,15 +46,7 @@ const Header = () => {
           )}
         </div>
 
-        {/* <div className="fixed top-16 left-0 z-50 max-w-md mx-auto">
-          <ul className="">
-            <li>
-              <Link href={""}>
-                Services <ChevronDoubleDownIcon className="" />
-              </Link>
-            </li>
-          </ul>
-        </div> */}
+        {/* Desktop Navigation */}
       </nav>
     </header>
   );

@@ -44,7 +44,7 @@ const Hero = () => {
             <Image src={YearsOfExp} alt="Years of experience" />
             <div>
               <h3 className="text-3xl font-bold">17+</h3>
-              <p className="text-sm lg:text-base">
+              <p className="text-sm lg:text-base lg:leading-4">
                 Years of Industry Experience
               </p>
             </div>
@@ -55,7 +55,7 @@ const Hero = () => {
             <Image src={Projects} alt="Successful software projects" />
             <div>
               <h3 className="text-3xl font-bold">110+</h3>
-              <p className="text-sm lg:text-base">
+              <p className="text-sm lg:text-base lg:leading-4">
                 Successful Software Projects
               </p>
             </div>
@@ -65,7 +65,7 @@ const Hero = () => {
           <div className="flex gap-6 text-[#5e6370] items-center md:ml-[3.2rem] lg:ml-0 ">
             <Image className="lg:w-12" src={Location} alt="Location based" />
             <div>
-              <p className="text-sm lg:text-base">
+              <p className="text-sm lg:text-base lg:leading-4">
                 UK-based with Offshore Development Centres
               </p>
             </div>
@@ -75,8 +75,6 @@ const Hero = () => {
           <div className="md:-ml-20 lf:ml-0">
             <Image src={Clutch} alt="Location based" />
           </div>
-
-          <div></div>
         </div>
       </div>
     </section>
