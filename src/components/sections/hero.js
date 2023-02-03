@@ -12,7 +12,7 @@ import Clutch from "../../assets/images/Clutch.webp";
 
 const Hero = () => {
   return (
-    <section className="pt-24 pb-12 px-4 md:pt-32" id="hero">
+    <section className="px-4 pt-24 pb-12 md:pt-32" id="hero">
       {/* Container */}
       <div className="container mx-auto space-y-16 lg:max-w-6xl">
         {/* Grid container */}
@@ -28,7 +28,7 @@ const Hero = () => {
           </div>
 
           {/* Video */}
-          <div className="max-w-xl mx-auto bg-[#175387] rounded-[3rem] md:ml-0">
+          <div className="max-w-xl mx-auto bg-[#175387] z-40 rounded-[3rem] md:ml-0">
             <Image src={HeroImg} alt="Hero preview" />
 
             <p className="text-white text-sm text-center font-semibold py-6 md:text-[20px]">

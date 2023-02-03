@@ -22,7 +22,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="absolute top-0 left-0 z-50 w-full bg-white shadow-md">
+    <header className="absolute top-0 left-0 z-50 w-full bg-white">
       <nav className="container flex items-center justify-between h-16 px-4 mx-auto lg:max-w-6xl">
         <Link className="cursor-pointer" href={"#"}>
           <Image className="w-[70%]" src={Logo} alt="Header logo" />
