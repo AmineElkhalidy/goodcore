@@ -102,6 +102,7 @@ const Services = () => {
           </div>
         </div>
 
+        {/* View all button */}
         <div className="mt-10 text-center">
           <Link
             className="px-16 py-4 text-sm font-semibold text-blue-400 uppercase duration-300 border border-blue-400 rounded-full hover:bg-blue-400 hover:text-white hover:shadow-md hover:shadow-blue-400/60"

@@ -2,6 +2,7 @@ import React from "react";
 
 // Next component
 import Image from "next/image";
+import Link from "next/link";
 
 // Hero images
 import HeroImg from "../../assets/images/peter.webp";
@@ -38,9 +39,9 @@ const Hero = () => {
         </div>
 
         {/* Grid container */}
-        <div className="grid gap-10 md:place-items-center md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid max-w-lg gap-10 mx-auto md:max-w-full md:grid-cols-2 lg:grid-cols-4">
           {/* Feature 1 */}
-          <div className="flex gap-6 text-[#5e6370] items-center">
+          <div className="flex gap-6 text-[#5e6370] items-center pb-4 border-b-2 lg:border-b-0 lg:border-r-2 ">
             <Image src={YearsOfExp} alt="Years of experience" />
             <div>
               <h3 className="text-3xl font-bold">17+</h3>
@@ -51,7 +52,7 @@ const Hero = () => {
           </div>
 
           {/* Feature 2 */}
-          <div className="flex gap-6 text-[#5e6370] items-center">
+          <div className="flex gap-6 text-[#5e6370] items-center pb-4 border-b-2 lg:border-b-0 lg:border-r-2 ">
             <Image src={Projects} alt="Successful software projects" />
             <div>
               <h3 className="text-3xl font-bold">110+</h3>
@@ -62,7 +63,7 @@ const Hero = () => {
           </div>
 
           {/* Feature 3 */}
-          <div className="flex gap-6 text-[#5e6370] items-center md:ml-[3.2rem] lg:ml-0 ">
+          <div className="flex gap-6 text-[#5e6370] items-center pb-4 border-b-2 lg:border-b-0 lg:border-r-2 ">
             <Image className="lg:w-12" src={Location} alt="Location based" />
             <div>
               <p className="text-sm lg:text-base lg:leading-4">
@@ -72,9 +73,13 @@ const Hero = () => {
           </div>
 
           {/* Feature 4 */}
-          <div className="md:-ml-20 lf:ml-0">
-            <Image src={Clutch} alt="Location based" />
+          <div className="inline-flex items-center pb-4 border-b-2 lg:border-b-0">
+            <Link href={""}>
+              <Image src={Clutch} alt="Location based" />
+            </Link>
           </div>
+
+          <div></div>
         </div>
       </div>
     </section>
