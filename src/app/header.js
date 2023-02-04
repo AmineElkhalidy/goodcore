@@ -82,7 +82,7 @@ const Header = () => {
         {/* Desktop Navigation */}
         <div className="hidden lg:block">
           <ul className="flex items-center gap-3">
-            <li className="relative h-16 pt-[1.2rem] px-2 group duration-300 hover:bg-blue-50 hover:border-b-2 hover:border-blue-500">
+            <li className="h-16 pt-[1.2rem] px-2 group duration-300 hover:bg-blue-50 hover:border-b-2 hover:border-blue-500">
               <Link
                 className="inline-flex items-center text-sm uppercase"
                 href={""}
@@ -90,10 +90,10 @@ const Header = () => {
                 services <ArrowDownSFillIcon className="w-4 h-4" />
               </Link>
 
-              <div className="absolute -left-[24rem] top-[-200%] top-16">
-                <div className="z-50 w-screen bg-white max-w-[77rem]">
+              <div className="absolute left-0 top-[-5000%] group-hover:top-[6.1rem] ">
+                <div className="z-50 w-screen bg-white shadow-2xl">
                   {/* Grid container for 3 divs */}
-                  <div className="flex gap-6">
+                  <div className="flex w-full gap-6">
                     {/* First div */}
                     <div className="flex flex-col py-6 px-4 items-center justify-between bg-orange-500 w-[250px]">
                       {/* Images container */}
@@ -142,7 +142,7 @@ const Header = () => {
                     </div>
 
                     {/* Second div */}
-                    <div className="grid max-w-xl grid-cols-2 gap-2 py-2">
+                    <div className="grid max-w-2xl grid-cols-2 gap-2 py-2">
                       <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
                         <h3 className="mb-2 font-semibold uppercase">
                           Web App Development
