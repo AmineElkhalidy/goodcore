@@ -49,8 +49,8 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <div className="hidden lg:block">
-          <ul className="flex items-center gap-6">
-            <li>
+          <ul className="flex items-center gap-3">
+            <li className="relative h-16 pt-[1.2rem] px-2 group duration-300 hover:bg-blue-50 hover:border-b-2 hover:border-blue-500">
               <Link
                 className="inline-flex items-center gap-1 text-sm uppercase"
                 href={""}
@@ -59,7 +59,7 @@ const Header = () => {
               </Link>
             </li>
 
-            <li>
+            <li className="relative h-16 pt-[1.2rem] px-2 group duration-300 hover:bg-blue-50 hover:border-b-2 hover:border-blue-500">
               <Link
                 className="inline-flex items-center gap-1 text-sm uppercase"
                 href={""}
@@ -68,7 +68,7 @@ const Header = () => {
               </Link>
             </li>
 
-            <li>
+            <li className="relative h-16 pt-[1.2rem] px-2 group duration-300 hover:bg-blue-50 hover:border-b-2 hover:border-blue-500">
               <Link
                 className="inline-flex items-center gap-1 text-sm uppercase"
                 href={""}
@@ -77,7 +77,7 @@ const Header = () => {
               </Link>
             </li>
 
-            <li>
+            <li className="relative h-16 pt-[1.2rem] px-2 group duration-300 hover:bg-blue-50 hover:border-b-2 hover:border-blue-500">
               <Link
                 className="inline-flex items-center gap-1 text-sm uppercase"
                 href={""}
@@ -86,19 +86,19 @@ const Header = () => {
               </Link>
             </li>
 
-            <li>
+            <li className="h-16 pt-[1.2rem]">
               <Link className="text-sm uppercase w-[160px] " href={""}>
                 Case Studies
               </Link>
             </li>
 
-            <li>
+            <li className="h-16 pt-[1.2rem] mx-2">
               <Link className="text-sm uppercase" href={""}>
                 Blog
               </Link>
             </li>
 
-            <li>
+            <li className="h-16 pt-[1.2rem]">
               <Link
                 className="px-6 py-3 text-xs text-white uppercase duration-300 bg-blue-400 border border-blue-400 rounded-full hover:text-blue-400 hover:bg-white "
                 href={""}
