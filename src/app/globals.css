@@ -27,9 +27,9 @@ body {
   background-image: url("../assets/images/bg-home-lines.webp");
 }
 
-.section-heading span::after {
-  bottom: 2px;
-  height: 5px;
+.section-heading span {
+  position: relative;
+  z-index: 1;
 }
 
 .section-heading span::after {
@@ -37,11 +37,17 @@ body {
 
   position: absolute;
   left: 0;
-  bottom: 10px;
+  bottom: 0;
 
-  background: #51ffdd;
+  background-color: #51ffdd;
   height: 7px;
   width: 100%;
   border-radius: 25px;
   z-index: -1;
+}
+
+@media screen and (min-width: 768px) {
+  .section-heading span::after {
+    bottom: 10px;
+  }
 }

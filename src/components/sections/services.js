@@ -17,10 +17,10 @@ const Services = () => {
       <div className="max-w-6xl px-4 mx-auto">
         {/* Section title and description */}
         <div className="mb-20 text-center">
-          <h2 className="text-[26px] uppercase font-bold mb-4 section-heading md:text-[48px]">
+          <h2 className="text-[26px] text-[#212125] uppercase font-bold mb-4 section-heading md:text-[48px]">
             Our <span>Services</span>
           </h2>
-          <p className="md:text-[24px]">
+          <p className="md:text-[24px] text-[#303234]">
             GoodCore is a leading bespoke software development company based in
             Croydon, UK. We build robust software for startups and established
             businesses. Since 2005.
