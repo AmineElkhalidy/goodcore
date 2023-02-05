@@ -458,31 +458,345 @@ const Header = () => {
               </div>
             </li>
 
-            <li className="relative h-16 pt-[1.2rem] px-2 group duration-300 hover:bg-blue-50 hover:border-b-2 hover:border-blue-500">
+            <li className="h-16 pt-[1.2rem] px-2 group duration-300 hover:bg-blue-50 hover:border-b-2 hover:border-blue-500">
               <Link
                 className="inline-flex items-center text-sm uppercase"
                 href={""}
               >
                 Technologies <ArrowDownSFillIcon className="w-4 h-4" />
               </Link>
+
+              <div className="absolute left-0 top-[-5000%] group-hover:top-[6.1rem]">
+                <div className="z-50 w-screen bg-white shadow-2xl">
+                  <div className="grid max-w-6xl grid-cols-4 gap-2 py-4 mx-auto">
+                    <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
+                      <h3 className="mb-2 font-semibold uppercase">
+                        Web App Development
+                      </h3>
+
+                      <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
+                      <ul className="space-y-1 text-sm text-gray-500">
+                        <li>
+                          <Link
+                            className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
+                            href={""}
+                          >
+                            <ArrowRightIcon className="w-4 h-4" /> B2B Portal
+                            Development
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
+                            href={""}
+                          >
+                            <ArrowRightIcon className="w-4 h-4" /> B2B Portal
+                            Development
+                          </Link>
+                        </li>
+
+                        <li>
+                          <Link
+                            className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
+                            href={""}
+                          >
+                            <ArrowRightIcon className="w-4 h-4" /> B2B Portal
+                            Development
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
+                      <h3 className="mb-2 font-semibold uppercase">
+                        Web App Development
+                      </h3>
+
+                      <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
+                      <ul className="space-y-1 text-sm text-gray-500">
+                        <li>
+                          <Link
+                            className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
+                            href={""}
+                          >
+                            <ArrowRightIcon className="w-4 h-4" /> B2B Portal
+                            Development
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
+                            href={""}
+                          >
+                            <ArrowRightIcon className="w-4 h-4" /> B2B Portal
+                            Development
+                          </Link>
+                        </li>
+
+                        <li>
+                          <Link
+                            className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
+                            href={""}
+                          >
+                            <ArrowRightIcon className="w-4 h-4" /> B2B Portal
+                            Development
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
+                      <h3 className="mb-2 font-semibold uppercase">
+                        Web App Development
+                      </h3>
+
+                      <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
+                      <ul className="space-y-1 text-sm text-gray-500">
+                        <li>
+                          <Link
+                            className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
+                            href={""}
+                          >
+                            <ArrowRightIcon className="w-4 h-4" /> B2B Portal
+                            Development
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
+                            href={""}
+                          >
+                            <ArrowRightIcon className="w-4 h-4" /> B2B Portal
+                            Development
+                          </Link>
+                        </li>
+
+                        <li>
+                          <Link
+                            className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
+                            href={""}
+                          >
+                            <ArrowRightIcon className="w-4 h-4" /> B2B Portal
+                            Development
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
+                      <h3 className="mb-2 font-semibold uppercase">
+                        Web App Development
+                      </h3>
+
+                      <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
+                      <ul className="space-y-1 text-sm text-gray-500">
+                        <li>
+                          <Link
+                            className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
+                            href={""}
+                          >
+                            <ArrowRightIcon className="w-4 h-4" /> B2B Portal
+                            Development
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
+                            href={""}
+                          >
+                            <ArrowRightIcon className="w-4 h-4" /> B2B Portal
+                            Development
+                          </Link>
+                        </li>
+
+                        <li>
+                          <Link
+                            className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
+                            href={""}
+                          >
+                            <ArrowRightIcon className="w-4 h-4" /> B2B Portal
+                            Development
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
 
-            <li className="relative h-16 pt-[1.2rem] px-2 group duration-300 hover:bg-blue-50 hover:border-b-2 hover:border-blue-500">
+            <li className="h-16 pt-[1.2rem] px-2 group duration-300 hover:bg-blue-50 hover:border-b-2 hover:border-blue-500">
               <Link
                 className="inline-flex items-center text-sm uppercase"
                 href={""}
               >
                 Company <ArrowDownSFillIcon className="w-4 h-4" />
               </Link>
+
+              <div className="absolute left-0 top-[-5000%] group-hover:top-[6.1rem]">
+                <div className="z-50 w-screen bg-white shadow-2xl">
+                  <div className="grid max-w-6xl grid-cols-3 gap-2 py-4 mx-auto">
+                    <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
+                      <h3 className="mb-2 font-semibold uppercase">
+                        Web App Development
+                      </h3>
+
+                      <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
+                      <p className="text-sm text-gray-500">
+                        Cost-efficient business apps and web portals
+                        custom-built for a variety of industries
+                      </p>
+                    </div>
+
+                    <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
+                      <h3 className="mb-2 font-semibold uppercase">
+                        Web App Development
+                      </h3>
+
+                      <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
+                      <p className="text-sm text-gray-500">
+                        Cost-efficient business apps and web portals
+                        custom-built for a variety of industries
+                      </p>
+                    </div>
+
+                    <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
+                      <h3 className="mb-2 font-semibold uppercase">
+                        Web App Development
+                      </h3>
+
+                      <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
+                      <p className="text-sm text-gray-500">
+                        Cost-efficient business apps and web portals
+                        custom-built for a variety of industries
+                      </p>
+                    </div>
+
+                    <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
+                      <h3 className="mb-2 font-semibold uppercase">
+                        Web App Development
+                      </h3>
+
+                      <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
+                      <p className="text-sm text-gray-500">
+                        Cost-efficient business apps and web portals
+                        custom-built for a variety of industries
+                      </p>
+                    </div>
+
+                    <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
+                      <h3 className="mb-2 font-semibold uppercase">
+                        Web App Development
+                      </h3>
+
+                      <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
+                      <p className="text-sm text-gray-500">
+                        Cost-efficient business apps and web portals
+                        custom-built for a variety of industries
+                      </p>
+                    </div>
+
+                    <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
+                      <h3 className="mb-2 font-semibold uppercase">
+                        Web App Development
+                      </h3>
+
+                      <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
+                      <p className="text-sm text-gray-500">
+                        Cost-efficient business apps and web portals
+                        custom-built for a variety of industries
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
 
-            <li className="relative h-16 pt-[1.2rem] px-2 group duration-300 hover:bg-blue-50 hover:border-b-2 hover:border-blue-500">
+            <li className="h-16 pt-[1.2rem] px-2 group duration-300 hover:bg-blue-50 hover:border-b-2 hover:border-blue-500">
               <Link
                 className="inline-flex items-center text-sm uppercase"
                 href={""}
               >
                 Industries <ArrowDownSFillIcon className="w-4 h-4" />
               </Link>
+
+              <div className="absolute left-0 top-[-5000%] group-hover:top-[6.1rem]">
+                <div className="z-50 w-screen bg-white shadow-2xl">
+                  <div className="grid max-w-6xl grid-cols-3 gap-2 py-4 mx-auto">
+                    <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
+                      <h3 className="mb-2 font-semibold uppercase">
+                        Web App Development
+                      </h3>
+
+                      <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
+                      <p className="text-sm text-gray-500">
+                        Cost-efficient business apps and web portals
+                        custom-built for a variety of industries
+                      </p>
+                    </div>
+
+                    <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
+                      <h3 className="mb-2 font-semibold uppercase">
+                        Web App Development
+                      </h3>
+
+                      <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
+                      <p className="text-sm text-gray-500">
+                        Cost-efficient business apps and web portals
+                        custom-built for a variety of industries
+                      </p>
+                    </div>
+
+                    <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
+                      <h3 className="mb-2 font-semibold uppercase">
+                        Web App Development
+                      </h3>
+
+                      <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
+                      <p className="text-sm text-gray-500">
+                        Cost-efficient business apps and web portals
+                        custom-built for a variety of industries
+                      </p>
+                    </div>
+
+                    <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
+                      <h3 className="mb-2 font-semibold uppercase">
+                        Web App Development
+                      </h3>
+
+                      <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
+                      <p className="text-sm text-gray-500">
+                        Cost-efficient business apps and web portals
+                        custom-built for a variety of industries
+                      </p>
+                    </div>
+
+                    <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
+                      <h3 className="mb-2 font-semibold uppercase">
+                        Web App Development
+                      </h3>
+
+                      <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
+                      <p className="text-sm text-gray-500">
+                        Cost-efficient business apps and web portals
+                        custom-built for a variety of industries
+                      </p>
+                    </div>
+
+                    <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
+                      <h3 className="mb-2 font-semibold uppercase">
+                        Web App Development
+                      </h3>
+
+                      <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
+                      <p className="text-sm text-gray-500">
+                        Cost-efficient business apps and web portals
+                        custom-built for a variety of industries
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
 
             <li className="h-16 pt-[1.2rem]">
