@@ -445,9 +445,9 @@ const Header = () => {
                         Need a custom solution ?
                       </h3>
                       <p className="max-w-xl">
-                        We understand one size doesn't fit all, we can work with
-                        you to define and a custom solution that meets your
-                        need.
+                        We understand one size doesn&&apos;t fit all, we can
+                        work with you to define and a custom solution that meets
+                        your need.
                       </p>
                     </div>
 
