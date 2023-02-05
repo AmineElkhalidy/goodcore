@@ -102,24 +102,28 @@ const Header = () => {
                           <Image
                             className="w-full h-full bg-blue-300"
                             src={""}
+                            alt=""
                           />
                         </div>
                         <div className="w-12 h-12 -ml-3 overflow-hidden border-white rounded-full">
                           <Image
                             className="w-full h-full bg-blue-300"
                             src={""}
+                            alt=""
                           />
                         </div>
                         <div className="w-12 h-12 -ml-3 overflow-hidden border-white rounded-full">
                           <Image
                             className="w-full h-full bg-blue-300"
                             src={""}
+                            alt=""
                           />
                         </div>
                         <div className="w-12 h-12 -ml-3 overflow-hidden border-white rounded-full">
                           <Image
                             className="w-full h-full bg-blue-300"
                             src={""}
+                            alt=""
                           />
                         </div>
                       </div>
