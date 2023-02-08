@@ -93,7 +93,7 @@ const Header = () => {
               <div className="absolute left-0 top-[-5000%] group-hover:top-[6.1rem] ">
                 <div className="z-50 w-screen bg-white shadow-2xl">
                   {/* Grid container for 3 divs */}
-                  <div className="flex w-full gap-6">
+                  <div className="flex w-full gap-3">
                     {/* First div */}
                     <div className="flex flex-col py-6 px-4 items-center justify-between bg-orange-500 w-[250px]">
                       {/* Images container */}
@@ -152,7 +152,7 @@ const Header = () => {
                           Web App Development
                         </h3>
 
-                        <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
+                        <span className="inline-block w-[2.2rem] h-[5px] bg-primary-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
                         <p className="text-sm text-gray-500">
                           Cost-efficient business apps and web portals
                           custom-built for a variety of industries
@@ -161,19 +161,19 @@ const Header = () => {
 
                       <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
                         <h3 className="mb-2 font-semibold uppercase">
-                          Web App Development
+                          Bespoke Business Applications
                         </h3>
 
                         <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
                         <p className="text-sm text-gray-500">
-                          Cost-efficient business apps and web portals
-                          custom-built for a variety of industries
+                          Custom web and mobile-based software solutions for
+                          efficient business processes
                         </p>
                       </div>
 
                       <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
                         <h3 className="mb-2 font-semibold uppercase">
-                          Web App Development
+                          Web Portal Development
                         </h3>
 
                         <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
@@ -183,8 +183,8 @@ const Header = () => {
                               className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
                               href={""}
                             >
-                              <ArrowRightIcon className="w-4 h-4" /> B2B Portal
-                              Development
+                              <ArrowRightIcon className="w-4 h-4" />
+                              B2B Portal Development
                             </Link>
                           </li>
                           <li>
@@ -192,8 +192,8 @@ const Header = () => {
                               className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
                               href={""}
                             >
-                              <ArrowRightIcon className="w-4 h-4" /> B2B Portal
-                              Development
+                              <ArrowRightIcon className="w-4 h-4" />
+                              Vendor Portal Development
                             </Link>
                           </li>
 
@@ -202,8 +202,8 @@ const Header = () => {
                               className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
                               href={""}
                             >
-                              <ArrowRightIcon className="w-4 h-4" /> B2B Portal
-                              Development
+                              <ArrowRightIcon className="w-4 h-4" />
+                              Customer Portal Development
                             </Link>
                           </li>
                         </ul>
@@ -211,7 +211,7 @@ const Header = () => {
 
                       <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
                         <h3 className="mb-2 font-semibold uppercase">
-                          Web App Development
+                          Desktop App Development
                         </h3>
 
                         <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
@@ -221,8 +221,8 @@ const Header = () => {
                               className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
                               href={""}
                             >
-                              <ArrowRightIcon className="w-4 h-4" /> B2B Portal
-                              Development
+                              <ArrowRightIcon className="w-4 h-4" />
+                              Windows Development
                             </Link>
                           </li>
                           <li>
@@ -230,12 +230,12 @@ const Header = () => {
                               className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
                               href={""}
                             >
-                              <ArrowRightIcon className="w-4 h-4" /> B2B Portal
-                              Development
+                              <ArrowRightIcon className="w-4 h-4" />
+                              macOS DEVELOPMENT
                             </Link>
                           </li>
 
-                          <li>
+                          {/* <li>
                             <Link
                               className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
                               href={""}
@@ -243,25 +243,25 @@ const Header = () => {
                               <ArrowRightIcon className="w-4 h-4" /> B2B Portal
                               Development
                             </Link>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
 
                       <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
                         <h3 className="mb-2 font-semibold uppercase">
-                          Web App Development
+                          Mobile App Development
                         </h3>
 
                         <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
                         <p className="text-sm text-gray-500">
-                          Cost-efficient business apps and web portals
-                          custom-built for a variety of industries
+                          Custom-built user-friendly Android, iOS, and
+                          cross-platform mobile apps
                         </p>
                       </div>
 
                       <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
                         <h3 className="mb-2 font-semibold uppercase">
-                          Web App Development
+                          Software Development Outsourcing
                         </h3>
 
                         <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
@@ -271,8 +271,8 @@ const Header = () => {
                               className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
                               href={""}
                             >
-                              <ArrowRightIcon className="w-4 h-4" /> B2B Portal
-                              Development
+                              <ArrowRightIcon className="w-4 h-4" />
+                              Dedicated Development Team
                             </Link>
                           </li>
                           <li>
@@ -280,8 +280,46 @@ const Header = () => {
                               className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
                               href={""}
                             >
-                              <ArrowRightIcon className="w-4 h-4" /> B2B Portal
+                              <ArrowRightIcon className="w-4 h-4" />
+                              IT Staff Augmentation
+                            </Link>
+                          </li>
+
+                          {/* <li>
+                            <Link
+                              className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
+                              href={""}
+                            >
+                              <ArrowRightIcon className="w-4 h-4" />
                               Development
+                            </Link>
+                          </li> */}
+                        </ul>
+                      </div>
+
+                      <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
+                        <h3 className="mb-2 font-semibold uppercase">
+                          For Startups
+                        </h3>
+
+                        <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
+                        <ul className="space-y-1 text-sm text-gray-500">
+                          <li>
+                            <Link
+                              className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
+                              href={""}
+                            >
+                              <ArrowRightIcon className="w-4 h-4" />
+                              MVP Development
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
+                              href={""}
+                            >
+                              <ArrowRightIcon className="w-4 h-4" />
+                              Discovery Workshops
                             </Link>
                           </li>
 
@@ -290,8 +328,8 @@ const Header = () => {
                               className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
                               href={""}
                             >
-                              <ArrowRightIcon className="w-4 h-4" /> B2B Portal
-                              Development
+                              <ArrowRightIcon className="w-4 h-4" />
+                              Virtual CTO
                             </Link>
                           </li>
                         </ul>
@@ -299,7 +337,7 @@ const Header = () => {
 
                       <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
                         <h3 className="mb-2 font-semibold uppercase">
-                          Web App Development
+                          Product Development
                         </h3>
 
                         <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
@@ -309,8 +347,8 @@ const Header = () => {
                               className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
                               href={""}
                             >
-                              <ArrowRightIcon className="w-4 h-4" /> B2B Portal
-                              Development
+                              <ArrowRightIcon className="w-4 h-4" />
+                              SaaS Application Development
                             </Link>
                           </li>
                           <li>
@@ -318,12 +356,12 @@ const Header = () => {
                               className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
                               href={""}
                             >
-                              <ArrowRightIcon className="w-4 h-4" /> B2B Portal
-                              Development
+                              <ArrowRightIcon className="w-4 h-4" />
+                              White Label Software Development
                             </Link>
                           </li>
 
-                          <li>
+                          {/* <li>
                             <Link
                               className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
                               href={""}
@@ -331,45 +369,7 @@ const Header = () => {
                               <ArrowRightIcon className="w-4 h-4" /> B2B Portal
                               Development
                             </Link>
-                          </li>
-                        </ul>
-                      </div>
-
-                      <div className="relative px-6 py-3 duration-500 cursor-pointer rounded-xl bg-slate-100 hover:bg-slate-200">
-                        <h3 className="mb-2 font-semibold uppercase">
-                          Web App Development
-                        </h3>
-
-                        <span className="inline-block w-[2.2rem] h-[5px] bg-blue-500 rounded-lg absolute -left-[1.05rem] top-6 rotate-90"></span>
-                        <ul className="space-y-1 text-sm text-gray-500">
-                          <li>
-                            <Link
-                              className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
-                              href={""}
-                            >
-                              <ArrowRightIcon className="w-4 h-4" /> B2B Portal
-                              Development
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
-                              href={""}
-                            >
-                              <ArrowRightIcon className="w-4 h-4" /> B2B Portal
-                              Development
-                            </Link>
-                          </li>
-
-                          <li>
-                            <Link
-                              className="inline-flex items-center gap-2 duration-300 hover:text-blue-500 hover:font-bold"
-                              href={""}
-                            >
-                              <ArrowRightIcon className="w-4 h-4" /> B2B Portal
-                              Development
-                            </Link>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                     </div>
@@ -387,8 +387,8 @@ const Header = () => {
                               className="inline-flex items-center gap-2 text-sm duration-300 hover:text-blue-500 hover:font-bold"
                               href={""}
                             >
-                              <ArrowRightIcon className="w-4 h-4" /> B2B Portal
-                              Development
+                              <ArrowRightIcon className="w-4 h-4" />
+                              Software Project Rescue
                             </Link>
                           </li>
 
@@ -397,8 +397,8 @@ const Header = () => {
                               className="inline-flex items-center gap-2 text-sm duration-300 hover:text-blue-500 hover:font-bold"
                               href={""}
                             >
-                              <ArrowRightIcon className="w-4 h-4" /> B2B Portal
-                              Development
+                              <ArrowRightIcon className="w-4 h-4" />
+                              Support & Maintenance
                             </Link>
                           </li>
 
@@ -407,8 +407,8 @@ const Header = () => {
                               className="inline-flex items-center gap-2 text-sm duration-300 hover:text-blue-500 hover:font-bold"
                               href={""}
                             >
-                              <ArrowRightIcon className="w-4 h-4" /> B2B Portal
-                              Development
+                              <ArrowRightIcon className="w-4 h-4" />
+                              API Development & System Integration
                             </Link>
                           </li>
 
@@ -417,8 +417,8 @@ const Header = () => {
                               className="inline-flex items-center gap-2 text-sm duration-300 hover:text-blue-500 hover:font-bold"
                               href={""}
                             >
-                              <ArrowRightIcon className="w-4 h-4" /> B2B Portal
-                              Development
+                              <ArrowRightIcon className="w-4 h-4" />
+                              QA & Testing Services
                             </Link>
                           </li>
 
@@ -427,8 +427,8 @@ const Header = () => {
                               className="inline-flex items-center gap-2 text-sm duration-300 hover:text-blue-500 hover:font-bold"
                               href={""}
                             >
-                              <ArrowRightIcon className="w-4 h-4" /> B2B Portal
-                              Development
+                              <ArrowRightIcon className="w-4 h-4" />
+                              UI/UX Design
                             </Link>
                           </li>
                         </ul>
